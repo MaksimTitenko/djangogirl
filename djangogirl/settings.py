@@ -25,7 +25,8 @@ SECRET_KEY = 'nl#f#nhkt5ws-)b)&k3nz+52&8w+f-ff^x&v8v13c#^8&zgu8y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['maksimtitenko.pythonanywhere.com',
+                 '.maksimtitenko.pythonanywhere.com.']
 
 
 # Application definition
