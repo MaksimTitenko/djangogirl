@@ -26,7 +26,8 @@ SECRET_KEY = 'nl#f#nhkt5ws-)b)&k3nz+52&8w+f-ff^x&v8v13c#^8&zgu8y'
 DEBUG = True
 
 ALLOWED_HOSTS = ['maksimtitenko.pythonanywhere.com',
-                 '.maksimtitenko.pythonanywhere.com.']
+                 '.maksimtitenko.pythonanywhere.com.',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -106,9 +107,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Minsk'
 
 USE_I18N = True
 
@@ -121,3 +122,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
